@@ -35,6 +35,7 @@ class MqttHandler {
             console.log(`mqtt client disconnected`);
         });
     }
+    
 
     // Sends a mqtt message to topic: mytopic
     sendMessage(message) {
